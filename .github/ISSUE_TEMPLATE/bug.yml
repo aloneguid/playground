@@ -13,3 +13,11 @@ body:
       placeholder: ex. 4.5.1
     validations:
       required: true
+  - type: input
+    id: os
+    attributes:
+      label: OS
+      description: Which OS is this affecting?
+      placeholder: ex. Ubuntu Linux
+    validations:
+      required: true
