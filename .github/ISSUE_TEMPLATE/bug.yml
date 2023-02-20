@@ -5,16 +5,12 @@ labels: ["bug", "triage"]
 assignees:
   - octocat
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this bug report!
   - type: input
-    id: contact
+    id: libversion
     attributes:
-      label: Contact Details
-      description: How can we get in touch with you if we need more info?
-      placeholder: ex. email@example.com
+      label: Library Version
+      description: Which version of Parquet.Net is affected?
+      placeholder: ex. 4.5.1
     validations:
       required: false
   - type: textarea
