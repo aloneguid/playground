@@ -12,7 +12,7 @@ body:
       description: Which version of Parquet.Net is affected?
       placeholder: ex. 4.5.1
     validations:
-      required: false
+      required: true
   - type: textarea
     id: what-happened
     attributes:
