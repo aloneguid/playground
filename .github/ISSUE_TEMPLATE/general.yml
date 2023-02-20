@@ -1,7 +1,7 @@
 name: General Issue
 description: NOT a bug report.
-title: ""
-labels: []
+title: "XXX"
+labels: [ "bug" ]
 assignees:
   - octocat
 body:
