@@ -14,12 +14,11 @@ body:
     validations:
       required: true
   - type: textarea
-    id: what-happened
+    id: repro
     attributes:
-      label: What happened?
-      description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+      label: How to reproduce?
+      description: Exact steps to reproduce this bug.
+      value: "1. ...."
     validations:
       required: true
   - type: dropdown
