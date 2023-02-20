@@ -21,3 +21,15 @@ body:
       placeholder: ex. Ubuntu Linux
     validations:
       required: true
+  - type: dropdown
+    id: os-arch
+    attributes:
+      label: OS Architecture
+      description: OS Architecture
+      options:
+        - 32 bit
+        - 64 bit
+        - ARM 64
+        - Other (please specify)
+    validations:
+      required: true
