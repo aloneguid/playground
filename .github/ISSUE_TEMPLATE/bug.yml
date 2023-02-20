@@ -41,3 +41,12 @@ body:
       value: "1. ...."
     validations:
       required: true
+  - type: textarea
+    id: repro-code
+    attributes:
+      label: Failing test
+      description: Providing a failing unit test or runnable piece of code will greatly speed up issue resolution.
+      value: ""
+      render: csharp
+    validations:
+      required: false
