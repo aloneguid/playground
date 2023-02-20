@@ -10,6 +10,6 @@ body:
     attributes:
       label: Issue description
       description: Please describe the issue.
-      value: "1. ...."
+      value: "..."
     validations:
       required: true
