@@ -1,6 +1,7 @@
 name: General Issue
 description: NOT a bug report.
 title: ""
+labels: ["bug", "triage"]
 assignees:
   - octocat
 body:
