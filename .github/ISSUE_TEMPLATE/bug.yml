@@ -33,3 +33,11 @@ body:
         - Other (please specify)
     validations:
       required: true
+  - type: textarea
+    id: repro-steps
+    attributes:
+      label: How to reproduce?
+      description: Exact steps to reproduce this bug.
+      value: "1. ...."
+    validations:
+      required: true
